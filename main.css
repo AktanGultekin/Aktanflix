@@ -1,0 +1,94 @@
+html {
+  min-width: min-content;
+}
+
+#logo {
+  float: right;
+  width: 10%;
+  transform: translate(0%, -10%);
+}
+
+header {
+  background-color: #1d1d1df6;
+  width: 100%;
+  height: 10%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+body {
+  background-color: #1d1d1df6;
+  color: #ffffff;
+  max-width: 100%;
+  min-width: fit-content;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  color: rgb(123, 87, 182);
+  padding: 20px 15px;
+  float: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  transform: translate(5%, 25%);
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+li a:active {
+  background-color: darkred;
+}
+
+nav {
+  width: 75%;
+}
+
+footer {
+  background-color: #1d1d1df6;
+  width: 101vw;
+  height: auto;
+  padding: 0;
+  position: absolute;
+}
+
+form {
+  font-family: monospace;
+  width: max-content;
+  margin-left: 50px;
+  padding: 0;
+  float: left;
+}
+
+#desc {
+  font-size: 0.85em;
+  margin-left: 1vw;
+  margin-top:2vh;
+}
+
+#contact {
+  float: right;
+  margin-right: 3vw;
+}
